@@ -9,9 +9,8 @@ reverse_each_word("Hello there, and how are you?")
 
 def reverse_each_word(greeting)  # using .collect method 
   array = greeting.split(" ")
-  array.collect {|word| word.reverse}
-  array.join(" ")
-  array.rstrip
+  array1 = array.collect {|word| word.reverse}
+  array1.join(" ")
 end
 reverse_each_word("Hello there, and how are you?")
 
