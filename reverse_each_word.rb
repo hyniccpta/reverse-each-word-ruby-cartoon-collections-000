@@ -11,6 +11,7 @@ def reverse_each_word(greeting)  # using .collect method
   array = greeting.split(" ")
   array.collect {|word| word.reverse}
   array.join(" ")
+  array.rstrip
   
 
   
